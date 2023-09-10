@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 function useState() {
-  return (
-    <div>
-
-    </div>
-  )
+  const [] = useState(0);
+  return <div></div>;
 }
 
-export default useState
+export default useState;
